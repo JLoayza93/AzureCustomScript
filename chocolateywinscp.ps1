@@ -1,3 +1,3 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force
-iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1')) 
 choco install winscp -y
